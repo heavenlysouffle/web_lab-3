@@ -7,444 +7,446 @@
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="./css/events.css">
 </head>
-<body style="position: relative">
+<body>
+<div class="events-body-wrapper" style="position: relative">
 
-<!-- Cart start -->
-<div class="cart" id="cart">
-    <button onclick="myFunction()" class="cart-btn"></button>
-    <div class="cart_bg">
-        <div class="cart-title"><h3 >Кошик</h3></div>
-        <ul>
-            <li>
-                <div class="magazine">
-                    <div class="cover">
-                        <img class="cover-img" src="./img/issues_issue_1.jpg" alt="">
-                    </div>
-                    <div class="cart-counter-price">
-                        <div class="cart-counter">
-                            <ul>
-                                <li>
-                                    <button>+ </button>
-                                </li>
-                                <li>
-                                    &nbsp;&nbsp;1
-                                </li>
-                                <li>
-                                    <button>-</button>
-                                </li>
-                            </ul>
+    <!-- Cart start -->
+    <div class="cart" id="cart">
+        <button onclick="myFunction()" class="cart-btn"></button>
+        <div class="cart_bg">
+            <div class="cart-title"><h3 >Кошик</h3></div>
+            <ul>
+                <li>
+                    <div class="magazine">
+                        <div class="cover">
+                            <img class="cover-img" src="./img/issues_issue_1.jpg" alt="">
                         </div>
-                        <div class="price">— 300 ₴</div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="magazine">
-                    <div class="cover">
-                        <img class="cover-img" src="./img/issues_issue_2.jpg" alt="">
-                    </div>
-                    <div class="cart-counter-price">
-                        <div class="cart-counter">
-                            <ul>
-                                <li>
-                                    <button>+ </button>
-                                </li>
-                                <li>
-                                    &nbsp;&nbsp;1
-                                </li>
-                                <li>
-                                    <button>-</button>
-                                </li>
-                            </ul>
+                        <div class="cart-counter-price">
+                            <div class="cart-counter">
+                                <ul>
+                                    <li>
+                                        <button>+ </button>
+                                    </li>
+                                    <li>
+                                        &nbsp;&nbsp;1
+                                    </li>
+                                    <li>
+                                        <button>-</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price">— 300 ₴</div>
                         </div>
-                        <div class="price">— 329 ₴</div>
                     </div>
-                </div>
-            </li>
-            <li>
-                <div class="magazine">
-                    <div class="cover">
-                        <img class="cover-img" src="./img/issues_issue_3.jpg" alt="">
-                    </div>
-                    <div class="cart-counter-price">
-                        <div class="cart-counter">
-                            <ul>
-                                <li>
-                                    <button>+ </button>
-                                </li>
-                                <li>
-                                    &nbsp;&nbsp;1
-                                </li>
-                                <li>
-                                    <button>-</button>
-                                </li>
-                            </ul>
+                </li>
+                <li>
+                    <div class="magazine">
+                        <div class="cover">
+                            <img class="cover-img" src="./img/issues_issue_2.jpg" alt="">
                         </div>
-                        <div class="price">— 250 ₴</div>
+                        <div class="cart-counter-price">
+                            <div class="cart-counter">
+                                <ul>
+                                    <li>
+                                        <button>+ </button>
+                                    </li>
+                                    <li>
+                                        &nbsp;&nbsp;1
+                                    </li>
+                                    <li>
+                                        <button>-</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price">— 329 ₴</div>
+                        </div>
                     </div>
+                </li>
+                <li>
+                    <div class="magazine">
+                        <div class="cover">
+                            <img class="cover-img" src="./img/issues_issue_3.jpg" alt="">
+                        </div>
+                        <div class="cart-counter-price">
+                            <div class="cart-counter">
+                                <ul>
+                                    <li>
+                                        <button>+ </button>
+                                    </li>
+                                    <li>
+                                        &nbsp;&nbsp;1
+                                    </li>
+                                    <li>
+                                        <button>-</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price">— 250 ₴</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="proceed">
+                <div class="proceed_wrapper">
+                    <div class="proceed-text-price">
+                        <div class="proceed-text">Разом:</div>
+                        <div class="final-price">— 879 ₴</div>
+                    </div>
+                    <a href="form_pay.html">
+                        <button class="proceed-button">Продовжити</button>
+                    </a>
                 </div>
-            </li>
-        </ul>
-        <div class="proceed">
-            <div class="proceed_wrapper">
-                <div class="proceed-text-price">
-                    <div class="proceed-text">Разом:</div>
-                    <div class="final-price">— 879 ₴</div>
-                </div>
-                <a href="form_pay.html">
-                    <button class="proceed-button">Продовжити</button>
-                </a>
             </div>
         </div>
     </div>
+    <!-- Cart end -->
+
+    <!-- Header start -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <a href="index.html" class="header-logo-link">
+                        <img src="./img/svg/header_logo.svg" alt="Панель за панеллю" class="header-logo-pic">
+                    </a>
+                </div>
+
+                <nav class="header-nav-bar">
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a href="issues.html" class="header-link">Видання</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="events.html" class="header-link">Події</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="about_us.html" class="header-link">Про нас</a>
+                        </li>
+                        <li class="header-language-change">
+                            <a href="#!" class="header-language-link">EN</a>
+                        </li>
+                    </ul>
+                    <div class="header-nav-close">
+                        <span class="header-nav-close-line"></span>
+                        <span class="header-nav-close-line"></span>
+                    </div>
+                </nav>
+                <div class="header-burger burger">
+                    <span class="burger-line burger-line_1"></span>
+                    <span class="burger-line burger-line_2"></span>
+                    <span class="burger-line burger-line_3"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <main>
+        <div class="section-events-wrapper">
+            <section class="events large">
+                <div class="row row-1">
+                    <div class="events-wrapper">
+                        <div class="column" style="margin-right: 2px;"></div>
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    B E R L I N
+                                    <br>26.06
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column" style="width: 300px;"></div>
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div class="events-wrapper">
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    K Y I V
+                                    <br>05.07
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-3">
+                    <div class="events-wrapper">
+                        <div class="column" style="margin-left: 3px;">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    L o d z
+                                    <br>17.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    W r o c l a w
+                                    <br>19.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column" style="width: 299px;"></div>
+                    </div>
+                </div>
+                <div class="row row-4"></div>
+            </section>
+            <section class="events middle">
+                <div class="row row-1">
+                    <div class="events-wrapper">
+                        <div class="column" style="margin-right: 2px;"></div>
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    B E R L I N
+                                    <br>26.06
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column" style="width: 300px;"></div>
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div class="events-wrapper">
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    K Y I V
+                                    <br>05.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                </div>
+                <div class="row row-3">
+                    <div class="events-wrapper">
+                        <div class="column" style="margin-left: 3px;">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    L o d z
+                                    <br>17.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    W r o c l a w
+                                    <br>19.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column" style="width: 299px;"></div>
+                    </div>
+                </div>
+                <div class="row row-4"></div>
+            </section>
+            <section class="events middle-2">
+                <div class="row row-1">
+                    <div class="events-wrapper">
+                        <div class="column" style="margin-right: 2px;"></div>
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    B E R L I N
+                                    <br>26.06
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column" style="width: 300px;"></div>
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div class="events-wrapper">
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    K Y I V
+                                    <br>05.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                    </div>
+                </div>
+                <div class="row row-3">
+                    <div class="events-wrapper">
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    W r o c l a w
+                                    <br>19.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column" style="margin-left: 3px;">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    L o d z
+                                    <br>17.07
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column" style="width: 299px;"></div>
+                    </div>
+                </div>
+                <div class="row row-4"></div>
+            </section>
+            <section class="events small">
+                <div class="row row-1">
+                    <div class="events-wrapper">
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    B E R L I N
+                                    <br>26.06
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div class="events-wrapper">
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    K Y I V
+                                    <br>05.07
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-3">
+                    <div class="events-wrapper">
+                        <div class="column">
+                            <div class="window">
+                                <h1 class="events-city">
+                                    W r o c l a w
+                                    <br>19.07
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-4">
+                    <div class="column" style="margin-left: 3px;">
+                        <div class="window">
+                            <h1 class="events-city">
+                                L o d z
+                                <br>17.07
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer start -->
+    <footer class="footer" style="position: absolute; bottom: 0;">
+        <div class="wrapper">
+            <div class="footer-item">
+                <nav class="footer-nav">
+                    <ul class="footer-menu">
+                        <h3 class="footer-menu-title">Links</h3>
+                        <li class="footer-menu-item">
+                            <a href="#!" class="footer-menu-link">Privacy Policy</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="#!" class="footer-menu-link">Copyright & Terms</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-menu">
+                        <h3 class="footer-menu-title">Contact us :)</h3>
+                        <li class="footer-menu-item">+380678474089</li>
+                        <li class="footer-menu-item">polina.bykova.pb@gmail.com</li>
+                    </ul>
+                </nav>
+                <div class="footer-break"></div>
+                <div class="copyright">
+                    <img src="./img/svg/footer_logo.svg" alt="" class="footer-logo-pic">
+                    © 2022 Panel`ki. All rights reserved.
+                </div>
+                <div class="social-media">
+                    <a href="#!" class="footer-social-media-link">
+                        <img src="./img/svg/telegram-logo.svg" alt="Наш Телеграм" class="social-media-logo">
+                    </a>
+                    <a href="#!" class="footer-social-media-link">
+                        <img src="./img/svg/instagram-logo.svg" alt="Наш Інстаграм" class="social-media-logo">
+                    </a>
+                    <a href="#!" class="footer-social-media-link">
+                        <img src="./img/svg/twitter-logo.svg" alt="Наш Твіттер" class="social-media-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer small">
+        <div class="wrapper">
+            <div class="footer-item">
+                <nav class="footer-nav">
+                    <ul class="footer-menu">
+                        <h3 class="footer-menu-title">Links</h3>
+                        <li class="footer-menu-item">
+                            <a href="#!" class="footer-menu-link">Privacy Policy</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="#!" class="footer-menu-link">Copyright & Terms</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-menu">
+                        <h3 class="footer-menu-title">Contact us :)</h3>
+                        <li class="footer-menu-item">+380678474089</li>
+                        <li class="footer-menu-item">polina.bykova.pb@gmail.com</li>
+                    </ul>
+                </nav>
+                <div class="footer-break"></div>
+                <div class="copyright">
+                    <img src="./img/svg/footer_logo.svg" alt="" class="footer-logo-pic">
+                    © 2022 Panel`ki. All rights reserved.
+                </div>
+                <div class="social-media">
+                    <a href="#!" class="footer-social-media-link">
+                        <img src="./img/svg/telegram-logo.svg" alt="Наш Телеграм" class="social-media-logo">
+                    </a>
+                    <a href="#!" class="footer-social-media-link">
+                        <img src="./img/svg/instagram-logo.svg" alt="Наш Інстаграм" class="social-media-logo">
+                    </a>
+                    <a href="#!" class="footer-social-media-link">
+                        <img src="./img/svg/twitter-logo.svg" alt="Наш Твіттер" class="social-media-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
 </div>
-<!-- Cart end -->
-
-<!-- Header start -->
-<header class="header">
-    <div class="wrapper">
-        <div class="header-wrapper">
-            <div class="header-logo">
-                <a href="index.html" class="header-logo-link">
-                    <img src="./img/svg/header_logo.svg" alt="Панель за панеллю" class="header-logo-pic">
-                </a>
-            </div>
-
-            <nav class="header-nav-bar">
-                <ul class="header-list">
-                    <li class="header-item">
-                        <a href="issues.html" class="header-link">Видання</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="events.html" class="header-link">Події</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="about_us.html" class="header-link">Про нас</a>
-                    </li>
-                    <li class="header-language-change">
-                        <a href="#!" class="header-language-link">EN</a>
-                    </li>
-                </ul>
-                <div class="header-nav-close">
-                    <span class="header-nav-close-line"></span>
-                    <span class="header-nav-close-line"></span>
-                </div>
-            </nav>
-            <div class="header-burger burger">
-                <span class="burger-line burger-line_1"></span>
-                <span class="burger-line burger-line_2"></span>
-                <span class="burger-line burger-line_3"></span>
-            </div>
-        </div>
-    </div>
-</header>
-<!-- Header end -->
-
-<main>
-    <div class="section-events-wrapper">
-        <section class="events large">
-            <div class="row row-1">
-                <div class="events-wrapper">
-                    <div class="column" style="margin-right: 2px;"></div>
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                B E R L I N
-                                <br>26.06
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column" style="width: 300px;"></div>
-                </div>
-            </div>
-            <div class="row row-2">
-                <div class="events-wrapper">
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                K Y I V
-                                <br>05.07
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-3">
-                <div class="events-wrapper">
-                    <div class="column" style="margin-left: 3px;">
-                        <div class="window">
-                            <h1 class="events-city">
-                                L o d z
-                                <br>17.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column">
-                         <div class="window">
-                            <h1 class="events-city">
-                                W r o c l a w
-                                <br>19.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column" style="width: 299px;"></div>
-                </div>
-            </div>
-            <div class="row row-4"></div>
-        </section>
-        <section class="events middle">
-            <div class="row row-1">
-                <div class="events-wrapper">
-                    <div class="column" style="margin-right: 2px;"></div>
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                B E R L I N
-                                <br>26.06
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column" style="width: 300px;"></div>
-                </div>
-            </div>
-            <div class="row row-2">
-                <div class="events-wrapper">
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                K Y I V
-                                <br>05.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                </div>
-            </div>
-            <div class="row row-3">
-                <div class="events-wrapper">
-                    <div class="column" style="margin-left: 3px;">
-                        <div class="window">
-                            <h1 class="events-city">
-                                L o d z
-                                <br>17.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column">
-                         <div class="window">
-                            <h1 class="events-city">
-                                W r o c l a w
-                                <br>19.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column" style="width: 299px;"></div>
-                </div>
-            </div>
-            <div class="row row-4"></div>
-        </section>
-        <section class="events middle-2">
-            <div class="row row-1">
-                <div class="events-wrapper">
-                    <div class="column" style="margin-right: 2px;"></div>
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                B E R L I N
-                                <br>26.06
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column" style="width: 300px;"></div>
-                </div>
-            </div>
-            <div class="row row-2">
-                <div class="events-wrapper">
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                K Y I V
-                                <br>05.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                </div>
-            </div>
-            <div class="row row-3">
-                <div class="events-wrapper">
-                    <div class="column">
-                         <div class="window">
-                            <h1 class="events-city">
-                                W r o c l a w
-                                <br>19.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column" style="margin-left: 3px;">
-                        <div class="window">
-                            <h1 class="events-city">
-                                L o d z
-                                <br>17.07
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="column"></div>
-                    <div class="column"></div>
-                    <div class="column" style="width: 299px;"></div>
-                </div>
-            </div>
-            <div class="row row-4"></div>
-        </section>
-        <section class="events small">
-            <div class="row row-1">
-                <div class="events-wrapper">
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                B E R L I N
-                                <br>26.06
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-2">
-                <div class="events-wrapper">
-                    <div class="column">
-                        <div class="window">
-                            <h1 class="events-city">
-                                K Y I V
-                                <br>05.07
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-3">
-                <div class="events-wrapper">
-                    <div class="column">
-                         <div class="window">
-                            <h1 class="events-city">
-                                W r o c l a w
-                                <br>19.07
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-4">
-                <div class="column" style="margin-left: 3px;">
-                    <div class="window">
-                        <h1 class="events-city">
-                            L o d z
-                            <br>17.07
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-</main>
-
-<!-- Footer start -->
-<footer class="footer" style="position: absolute; bottom: 0;">
-    <div class="wrapper">
-        <div class="footer-item">
-            <nav class="footer-nav">
-                <ul class="footer-menu">
-                    <h3 class="footer-menu-title">Links</h3>
-                    <li class="footer-menu-item">
-                        <a href="#!" class="footer-menu-link">Privacy Policy</a>
-                    </li>
-                    <li class="footer-menu-item">
-                        <a href="#!" class="footer-menu-link">Copyright & Terms</a>
-                    </li>
-                </ul>
-                <ul class="footer-menu">
-                    <h3 class="footer-menu-title">Contact us :)</h3>
-                    <li class="footer-menu-item">+380678474089</li>
-                    <li class="footer-menu-item">polina.bykova.pb@gmail.com</li>
-                </ul>
-            </nav>
-            <div class="footer-break"></div>
-            <div class="copyright">
-                <img src="./img/svg/footer_logo.svg" alt="" class="footer-logo-pic">
-                © 2022 Panel`ki. All rights reserved.
-            </div>
-            <div class="social-media">
-                <a href="#!" class="footer-social-media-link">
-                    <img src="./img/svg/telegram-logo.svg" alt="Наш Телеграм" class="social-media-logo">
-                </a>
-                <a href="#!" class="footer-social-media-link">
-                    <img src="./img/svg/instagram-logo.svg" alt="Наш Інстаграм" class="social-media-logo">
-                </a>
-                <a href="#!" class="footer-social-media-link">
-                    <img src="./img/svg/twitter-logo.svg" alt="Наш Твіттер" class="social-media-logo">
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<footer class="footer small">
-    <div class="wrapper">
-        <div class="footer-item">
-            <nav class="footer-nav">
-                <ul class="footer-menu">
-                    <h3 class="footer-menu-title">Links</h3>
-                    <li class="footer-menu-item">
-                        <a href="#!" class="footer-menu-link">Privacy Policy</a>
-                    </li>
-                    <li class="footer-menu-item">
-                        <a href="#!" class="footer-menu-link">Copyright & Terms</a>
-                    </li>
-                </ul>
-                <ul class="footer-menu">
-                    <h3 class="footer-menu-title">Contact us :)</h3>
-                    <li class="footer-menu-item">+380678474089</li>
-                    <li class="footer-menu-item">polina.bykova.pb@gmail.com</li>
-                </ul>
-            </nav>
-            <div class="footer-break"></div>
-            <div class="copyright">
-                <img src="./img/svg/footer_logo.svg" alt="" class="footer-logo-pic">
-                © 2022 Panel`ki. All rights reserved.
-            </div>
-            <div class="social-media">
-                <a href="#!" class="footer-social-media-link">
-                    <img src="./img/svg/telegram-logo.svg" alt="Наш Телеграм" class="social-media-logo">
-                </a>
-                <a href="#!" class="footer-social-media-link">
-                    <img src="./img/svg/instagram-logo.svg" alt="Наш Інстаграм" class="social-media-logo">
-                </a>
-                <a href="#!" class="footer-social-media-link">
-                    <img src="./img/svg/twitter-logo.svg" alt="Наш Твіттер" class="social-media-logo">
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- Footer end -->
 </body>
 </html>
