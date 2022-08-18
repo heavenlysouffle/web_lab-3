@@ -501,7 +501,7 @@ body {
   width: 100%;
   height: 70px;
   position: fixed;
-  z-index: 3;
+  z-index: 9998;
   background: #E6E8E6;
   font-family: "Press Start 2P";
   font-style: normal;
