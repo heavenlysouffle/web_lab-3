@@ -973,6 +973,13 @@ h3.footer-menu-title {
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 450px) {
+  .issue-pic {
+    height: 360px;
+    background: url("../img/issues_issue_1.jpg") no-repeat 50% 50%;
+    background-size: cover;
+  }
+}
 @media screen and (max-width: 444px) {
   .footer-menu {
     margin-bottom: 20px;
@@ -984,6 +991,11 @@ h3.footer-menu-title {
   }
   .cart_bg {
     width: calc(100vw - 40px);
+  }
+}
+@media screen and (max-width: 322px) {
+  .wrapper {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=selected_issue.css.map */

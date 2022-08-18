@@ -1401,4 +1401,9 @@ h3.footer-menu-title {
     width: calc(100vw - 40px);
   }
 }
+@media screen and (max-width: 322px) {
+  .wrapper {
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=index.css.map */
